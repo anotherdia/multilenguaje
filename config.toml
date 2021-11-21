@@ -1,0 +1,23 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = ['learn']
+defaultContentLanguage = 'es'
+
+
+[Languages]
+    [Languages.es]
+        title ="Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+    [Languages.en]
+        title = "Exaple use language"
+        weight = 2
+        languageName = "English"
+    [Languages.fr]
+        title = "Exemple d'utilisation des langues"
+        weight = 3
+        languageName = " Français"
+
+
+ 
